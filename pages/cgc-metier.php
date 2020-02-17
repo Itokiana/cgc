@@ -34,6 +34,7 @@
       <ul class="cgc-list-menu mt-5">
         <li data-aos="fade-right" data-aos-delay="400"><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
         <li data-aos="fade-right" data-aos-delay="600"><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+        <li data-aos="fade-right" data-aos-delay="1000"><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
         <li data-aos="fade-right" data-aos-delay="800"><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
         <li data-aos="fade-right" data-aos-delay="1000"><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
       </ul>
@@ -279,6 +280,7 @@
             <ul class="cgc-list">
               <li><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
               <li><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+              <li><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
               <li><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
               <li><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
             </ul>
@@ -297,7 +299,7 @@
             <p>RESEAUX SOCIAUX</p>
             <p class="cgc-social">
               <a href="https://twitter.com/AgenceCGC?fbclid=IwAR2oSHN9quHRRmIBgj_UbP3183qxxTOACIsaa_Kv0SP6EoVE8pP2ZBNbuGI" class="ti-twitter-alt p-2 ml-1"></a>
-              <a href="" class="ti-linkedin p-2 ml-1"></a>
+              <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcgc---compagnie-g%25C3%25A9n%25C3%25A9rale-de-communication%2Fabout%3Ffbclid%3DIwAR1bnYV_dnf0NSZO_VkdYhQ7FZEKcqy2m6YJqtWKb4zcNpaQKNeiUNn0wpc" class="ti-linkedin p-2 ml-1"></a>
               <a href="https://www.youtube.com/channel/UCViT2p24FGO_pHVr4wzJtSA?fbclid=IwAR3PuXJMqk8K3uZbVHlQQ-22hwl2H1GwyU8PN1rBlLXr4uPUARoPRTvAzVA" class="ti-youtube p-2 ml-1"></a>
             </p>
           </div>

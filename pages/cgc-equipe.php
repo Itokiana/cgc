@@ -27,17 +27,20 @@
           </span><br>
           <span class="cgc-bar-hb"></span>
         </div>
+        <div class="col-sm-4 text-center" style="position:relative;left:20px" data-aos="fade-down"  data-aos-duration="700" data-aos-easing="ease-out-cubic">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/images/logob.png" height="25" alt="logo" srcset="">
+        </div>
       </div>
       <ul class="cgc-list-menu mt-5">
         <li data-aos="fade-right" data-aos-delay="400"><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
         <li data-aos="fade-right" data-aos-delay="600"><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+        <li data-aos="fade-right" data-aos-delay="1000"><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
         <li data-aos="fade-right" data-aos-delay="800"><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
         <li data-aos="fade-right" data-aos-delay="1000"><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
-        <li data-aos="fade-right" data-aos-delay="1200"><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
       </ul>
     </div>
   </div>
-  <div class="cgc-header container pt-4 pl-4 pr-4" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
+  <!-- <div class="cgc-header container pt-4 pl-4 pr-4" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
     <div class="row">
       <div class="col-sm-4 cgc-btn-menu" id="cgc-open-menu" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
         <span style="display: inline-block">
@@ -81,6 +84,94 @@
           <div class="active cgc-carousel-position"></div>
           <div class="cgc-carousel-position"></div>
           <div class="cgc-carousel-position"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+  <div class="cgc-header container pt-4" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
+    <div class="row cgc-menu-navbar pt-4 pl-4 pr-4">
+      <div class="col-sm-4 cgc-btn-menu" id="cgc-open-menu" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <span style="display: inline-block">
+          <p class="text-center" style="width: 10px;margin: 0">M</p>
+          <p class="text-center" style="width: 10px;margin: 0">E</p>
+          <p class="text-center" style="width: 10px;margin: 0">N</p>
+          <p class="text-center" style="width: 10px;margin: 0">U</p>
+        </span><br>
+        <span class="cgc-bar-v"></span>
+      </div>
+      <div class="col-sm-4 text-center" data-aos="fade-down"  data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/logo.png" height="25" alt="logo" srcset="">
+      </div>
+      <div class="col-sm-4" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <span class="float-right cgc-font-xb" style="font-size: 12px">EN ▾</span>
+      </div>
+    </div>
+
+    <div class="cgc-header-carousel">
+      <div id="cgc-carousel-header" class="carousel slide" data-ride="carousel" style="height:100%">
+
+        <div class="carousel-inner" style="height:100%">
+          <div class="carousel-item active"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE ÉQUIPE</a>
+                  <h1 class="cgc-font-b mb-4"> Agence independante, humaine, rassemblant des personnalites d'horizons differentes, notre sensibilite est panafricaine et notre terrain de jeu est international.</h1>
+                  <button class="btn btn-outline-light"><span class="ti-control-play"></span> LIRE LA VIDEO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE ÉQUIPE</a>
+                  <h1 class="cgc-font-b mb-4"> Agence independante, humaine, rassemblant des personnalites d'horizons differentes, notre sensibilite est panafricaine et notre terrain de jeu est international.</h1>
+                  <button class="btn btn-outline-light"><span class="ti-control-play"></span> LIRE LA VIDEO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/equipes/notre-equipe-slide-01.jpg');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE ÉQUIPE</a>
+                  <h1 class="cgc-font-b mb-4"> Agence independante, humaine, rassemblant des personnalites d'horizons differentes, notre sensibilite est panafricaine et notre terrain de jeu est international.</h1>
+                  <button class="btn btn-outline-light"><span class="ti-control-play"></span> LIRE LA VIDEO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="cgc-box-scroll-state1 float-right carousel-indicators">
+            
+            <div class="active cgc-carousel-position" data-target="#cgc-carousel-header" data-slide-to="0"></div>
+            <div class="cgc-carousel-position"  data-target="#cgc-carousel-header" data-slide-to="1"></div>
+            <div class="cgc-carousel-position" data-target="#cgc-carousel-header" data-slide-to="2"></div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row cgc-carousel-state">
+      <div class="offset-xs-4 offset-sm-4 col-xs-4 col-sm-4 text-center" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <div class="cgc-box-scroll text-center">
+          <span class="cgc-font-b" style="display:inline-block;font-size: 10px">SCROLL</span>
+          <span class="ti-mouse mt-1" id="cgc-mouse" style="display:inline-block;font-size: 25px"></span><br>
+          <div class="cgc-bar-vll"></div>
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-4 cgc-carousel-status" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <div class="cgc-box-scroll-state2 float-right carousel-indicators">
+          <div class="cgc-bar-hll" style="position:relative;top:10px;"></div>
+          <span class="cgc-font-b mr-5" style="position:relative;bottom:20px;font-size: 38px">01</span>
         </div>
       </div>
     </div>
@@ -348,9 +439,9 @@
             <ul class="cgc-list">
               <li><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
               <li><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+              <li><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
               <li><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
               <li><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
-              <li><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
@@ -366,9 +457,9 @@
           <div class="col-lg-3">
             <p>RESEAUX SOCIAUX</p>
             <p class="cgc-social">
-              <span class="ti-twitter-alt p-2 ml-1"></span>
-              <span class="ti-linkedin p-2 ml-1"></span>
-              <span class="ti-youtube p-2 ml-1"></span>
+              <a href="https://twitter.com/AgenceCGC?fbclid=IwAR2oSHN9quHRRmIBgj_UbP3183qxxTOACIsaa_Kv0SP6EoVE8pP2ZBNbuGI" class="ti-twitter-alt p-2 ml-1"></a>
+              <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcgc---compagnie-g%25C3%25A9n%25C3%25A9rale-de-communication%2Fabout%3Ffbclid%3DIwAR1bnYV_dnf0NSZO_VkdYhQ7FZEKcqy2m6YJqtWKb4zcNpaQKNeiUNn0wpc" class="ti-linkedin p-2 ml-1"></a>
+              <a href="https://www.youtube.com/channel/UCViT2p24FGO_pHVr4wzJtSA?fbclid=IwAR3PuXJMqk8K3uZbVHlQQ-22hwl2H1GwyU8PN1rBlLXr4uPUARoPRTvAzVA" class="ti-youtube p-2 ml-1"></a>
             </p>
           </div>
         </div>
