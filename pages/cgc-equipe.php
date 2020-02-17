@@ -295,7 +295,7 @@
       <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
         <h3 class="cgc-font-b row" style="font-size: 36px;display: inline-block;">
             <span class="col-xs-4 cgc-subtitle-section ml-2">
-              NOS PARTENAIRES
+              NOS BUREAUX ET NOS PARTENAIRES
             </span>
             <span class="cgc-bar-hll bg-dark col-xs-4 cgc-bar-w-100 cgc-bar-subtitle"></span>
         </h3>
@@ -307,19 +307,15 @@
             </div>
           </div>
           <div class="col-sm-10">
-            <p>La compagnie Generale de communication deploie ses actions dans plus de 21 pays d'Afrique, grace 
-              ses representants locaux et des agences independantes partenaires.
-            </p>
-            <p style="color: blueviolet">
-              Afrique du Sud - Algerie - Angola - Benin - Burkina Faso - Cameroun - 
-              Cote d'Ivoire - Gabon - Guinee - Kenya - Madagascar - Maroc - Maurice - 
-              Nigeria - Republique du Congo - Rwanda - Senegal - Tchad - Togo - Tunisie
+            <p>
+              La compagnie Générale de communication a des bureau et des équipes dans 7 pays: 
+              <span style="color: blueviolet">France, Maroc, Côte d'Ivoire, Gabon, République démocratique du Congo, Tchad et Madagascar</span>
             </p>
             <p>
-              L'agence a egalement constitue un reseau <strong style="color: blueviolet">#ChangeNarrative</strong>, regroupant des professionnels des entreprises,
-              des chercheurs, des professeurs, des artistes, etudiants, etc. Des hommes et des femmes de qualite 
-              , experts dans leurs domaines, base en Europe et en Afrique et qui partage notre vision, nos valeurs
-              et notre volonte de promouvoir une narrative positive de l'Afrique et des personnes qui la represente.
+              Gâce à notre réseaux d'agence indépendant partenaires, nous déployons nos opérations dans plus de xx Pays en Afrique et en Europe: 
+              <span style="color: blueviolet">Afrique du Sud - Algerie - Angola - Benin - Burkina Faso - Cameroun - 
+              Cote d'Ivoire - Gabon - Guinee - Kenya - Madagascar - Maroc - Maurice - 
+              Nigeria - Republique du Congo - Rwanda - Senegal - Tchad - Togo - Tunisie</span>
             </p>
             <br>
           </div>
@@ -350,11 +346,11 @@
           </div>
           <div class="col-lg-3">
             <ul class="cgc-list">
-              <li>ACCUEIL</li>
-              <li>NOTRE METIER</li>
-              <li>NOS REFERECENCES</li>
-              <li>NOS EXPERTISES</li>
-              <li>NOTRE EQUIPE</li>
+              <li><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
+              <li><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+              <li><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
+              <li><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
+              <li><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
             </ul>
           </div>
           <div class="col-lg-3">

@@ -27,18 +27,21 @@
           </span><br>
           <span class="cgc-bar-hb"></span>
         </div>
+        <div class="col-sm-4 text-center" style="position:relative;left:20px" data-aos="fade-down"  data-aos-duration="700" data-aos-easing="ease-out-cubic">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/images/logob.png" height="25" alt="logo" srcset="">
+        </div>
       </div>
       <ul class="cgc-list-menu mt-5">
         <li data-aos="fade-right" data-aos-delay="400"><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
         <li data-aos="fade-right" data-aos-delay="600"><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
         <li data-aos="fade-right" data-aos-delay="800"><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
         <li data-aos="fade-right" data-aos-delay="1000"><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
-        <li data-aos="fade-right" data-aos-delay="1200"><a href="<?php echo site_url( '/index.php/notre-equipe/'); ?>">NOTRE ÉQUIPE</a></li>
       </ul>
     </div>
   </div>
-  <div class="cgc-header cgc-header-metier container pt-4 pl-4 pr-4">
-    <div class="row">
+
+  <div class="cgc-header container pt-4" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/images/home/home-header-slide.png');background-size: cover;">
+    <div class="row cgc-menu-navbar pt-4 pl-4 pr-4">
       <div class="col-sm-4 cgc-btn-menu" id="cgc-open-menu" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
         <span style="display: inline-block">
           <p class="text-center" style="width: 10px;margin: 0">M</p>
@@ -55,13 +58,56 @@
         <span class="float-right cgc-font-xb" style="font-size: 12px">EN ▾</span>
       </div>
     </div>
-    <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
-      <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
-        <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE MÉTIER</a>
-        <h1 class="cgc-font-b mb-4">Lorem</h1>
-        <button class="btn btn-outline-light"> NOUS CONTACTER</button>
-      </div>
+
+    <div class="cgc-header-carousel">
+      <div id="cgc-carousel-header" class="carousel slide" data-ride="carousel" style="height:100%">
+
+        <div class="carousel-inner" style="height:100%">
+          <div class="carousel-item active"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/metier/slide-notre-metier.png');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE MÉTIER</a>
+                  <h1 class="cgc-font-b mb-4">Une réponse aux changements profonds que connait l’Afrique, induits par les nouveaux modes de consommation, d’information et d’expression.</h1>
+                  <button class="btn btn-outline-light">NOUS CONTACTER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/metier/slide-notre-metier.png');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic"> 
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE MÉTIER</a>
+                  <h1 class="cgc-font-b mb-4">Une réponse aux changements profonds que connait l’Afrique, induits par les nouveaux modes de consommation, d’information et d’expression.</h1>
+                  <button class="btn btn-outline-light">NOUS CONTACTER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"  data-interval="10000" style="height:100%">
+            <div class="pt-4 pl-4 pr-4 cgc-carousel-item"  style="height:100%;background: url('<?php echo get_bloginfo('template_directory'); ?>/images/metier/slide-notre-metier.png');background-size: cover;">
+              <div class="row mt-5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+                <div class="col-md-6 col-lg-5 p-4 cgc-msg-header">
+                  <a class="pb-2 mb-4 cgc-font-xb" href="#">NOTRE MÉTIER</a>
+                  <h1 class="cgc-font-b mb-4">Une réponse aux changements profonds que connait l’Afrique, induits par les nouveaux modes de consommation, d’information et d’expression.</h1>
+                  <button class="btn btn-outline-light">NOUS CONTACTER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="cgc-box-scroll-state1 float-right carousel-indicators">
+            
+            <div class="active cgc-carousel-position" data-target="#cgc-carousel-header" data-slide-to="0"></div>
+            <div class="cgc-carousel-position"  data-target="#cgc-carousel-header" data-slide-to="1"></div>
+            <div class="cgc-carousel-position" data-target="#cgc-carousel-header" data-slide-to="2"></div>
+          </div>
+        </div>
+        </div>
     </div>
+
     <div class="row cgc-carousel-state">
       <div class="offset-xs-4 offset-sm-4 col-xs-4 col-sm-4 text-center" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-out-cubic">
         <div class="cgc-box-scroll text-center">
@@ -71,16 +117,14 @@
         </div>
       </div>
       <div class="col-xs-4 col-sm-4 cgc-carousel-status" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
-        <div class="cgc-box-scroll-state float-right">
-          <div class="cgc-bar-hll"></div>
-          <span class="cgc-font-b mr-5" style="font-size: 38px">01</span>
-          <div class="active cgc-carousel-position"></div>
-          <div class="cgc-carousel-position"></div>
-          <div class="cgc-carousel-position"></div>
+        <div class="cgc-box-scroll-state2 float-right carousel-indicators">
+          <div class="cgc-bar-hll" style="position:relative;top:10px;"></div>
+          <span class="cgc-font-b mr-5" style="position:relative;bottom:20px;font-size: 38px">01</span>
         </div>
       </div>
     </div>
   </div>
+
 
 
 
@@ -98,7 +142,7 @@
           <div class="cgc-rubband-r" style="left: 0"></div>
           <div class="row mt-5">
             <div class="offset-lg-1 col-6 mb-4">
-              <h3 class="cgc-font-b text-light" style="font-size: 36px">NOTRE MÉTIER</h3>
+            <h3 class="cgc-font-b text-light" style="font-size: 36px">NOTRE APPROCHE</h3>
             </div>
             <div class="col-2 mb-4">
               <div class="text-center" style="width: 50px">
@@ -110,13 +154,13 @@
           <div class="row text-light pl-4 pb-4">
             <div class="col-4">
               <p>
-                Fondée par Benjamin Mampuya, la Compagnie Générale de Communication (CGC) est une agence de conseil en Stratégie de communication Corporate et d’influence.
+                Fondée par Benjamin Mampuya, la Compagnie Générale de Communication (CGC) est une agence de conseil en Stratégie de communication Corporate et d’influence.<br>
+                <span class="cgc-font-b">
+                Notre mission consiste à de développer l’influence des acteurs économiques et des leaders d’opinions actifs sur l’axe Afrique/Europe.
+                </span>
               </p>
               <p>
-                Notre mission consiste à de développer l’influence des acteurs économiques et des leaders d’opinions actifs sur l’axe Afrique/Europe et auprès des diasporas.
-              </p>
-              <p>
-                Nous travaillons localement et nous pensons globalement pour démultiplier vos connexions de l’ Afrique vers Europe mais aussi vers le reste le reste du monde.
+                À la fois strtèges d'idées, créateurs d'émotions, agents d'image et d'hommes de réseaux, nous travaillons localement et nous pensons globalement pour démultiplier vos connexions sur le continent africain, del'Afrique vers Europe mais aussi vers le reste du monde.
               </p>
             </div>
             <div class="col-4">
@@ -146,11 +190,24 @@
 
   <div class="container custom-container">
     <div class="row">
-      <div class="col-lg-4" style="position:relative" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
-        <div class="cgc-rubband-l cgc-bg-pink"></div>
-        <img class="cgc-rubband-image-l" data-aos="fade-up" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-out-cubic" src="<?php echo get_bloginfo('template_directory'); ?>/images/metier/post-notre-metier.jpg" height="350" alt="city" srcset="">
+      <div class="col-lg-5" style="position:relative" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <div class="cgc-rubband-l cgc-bg-gb"></div>
+        <img class="cgc-rubband-image-l" style="left: 25%;top: 7%" data-aos="fade-up" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-out-cubic" src="<?php echo get_bloginfo('template_directory'); ?>/images/metier/africa.png" width="350" alt="city" srcset="">
       </div>
       <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
+        <div class="cgc-font-b row" style="font-size: 42px;display: inline-block;margin-left: 0%">
+            <span class="col-xs-4 ml-2">
+              NOTRE CRÉDO
+            </span>
+            <span class="cgc-bar-hll bg-dark col-xs-4 cgc-bar-w-100 cgc-bar-subtitle-02"></span>
+        </div>
+        <div class="row pt-2">
+          <div class="col-sm-10">
+          <p style="text-align: right">Notre approche repose sur le principe suivant : il existe un modèle de développement économique et social propre au continent africain. Un modèle qui intègre l’humain comme pierre angulaire de toute les stratégies.</p>
+
+          <p style="text-align: right">Aussi nous veillons pour chacune de nos recommandations à informer, former et fédérer l’ensemble des parties prenantes. Mais aussi tenter de s’absoudre du clivage anglophone et francophone.</p>
+          </div>
+        </div>
         <div class="cgc-font-b row" style="font-size: 42px;display: inline-block;margin-left: 0%">
             <span class="col-xs-4 ml-2">
               MÉTHODOLOGIE
@@ -159,39 +216,25 @@
         </div>
         <div class="row pt-2">
           <div class="col-sm-10">
-            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: rgb(224, 65, 145)">
-              VISION STRATÉGIQUE DU MARCHÉ AFRICAIN
+            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: #14b6b9">
+              1-CRÉER L'AUTHENTICITÉ
             </h4>
             <p style="text-align: right">
-              Une maitrise à la fois des problématiques sectorielles (politique,
-                institutionnelle, économique, sociale, culturelle, etc.) et relationnelles.
+              par une vision stratégique adaptée africain
             </p>
-            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: rgb(224, 65, 145)">
-                HUMAIN AU CENTRE DE LA COMMUNICATION
+            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: #14b6b9">
+                2-ASSURER L'ADHÉSION
             </h4>
             <p style="text-align: right">
-              Des solutions créatives et engageantes
-              Une créativité qui prend en compte toutes les sensibilités
+              par des solutions créatives et des contenus engageants
             </p>
-            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: rgb(224, 65, 145)">
-              STRATÉGIE DES MOYENS ADAPTÉ AU MARCHÉ AFRICAIN // INFORMER ET FORMER
-            </h4>
-            <p style="text-align: right">
-              Des outils et solutions innovantes 
-              Une parfaite connaissance de l’écosystème des grands médias, des décideurs
-              et des leaders d’opinion influents.
-              Une vision 360 de la communication et des toutes ses composantes
-            </p>
-            <h4 class="cgc-font-b pl-3" style="text-align: right;font-size: 16px;color: rgb(224, 65, 145)">
-              FRANCOPHONE // ANGLOPHONE
-            </h4>
             
             <br>
           </div>
           <div class="col-sm-2">
             <div class="text-center" style="width: 50px">
               <span class="cgc-font-b" style="font-size: 25px">02.</span><br>
-              <div class="cgc-bar-vll" style="width: 3px;background: rgb(224, 65, 145)"></div>
+              <div class="cgc-bar-vll" style="width: 3px;background: #14b6b9"></div>
             </div>
           </div>
         </div>
@@ -201,7 +244,7 @@
   <div class="container custom-container02">
     <div class="row" data-aos="fade-down" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-out-cubic">
       <div class="col-lg-1">
-        <div class="cgc-font-b cgc-title-section-footer float-left cgc-color-pink">HUMAIN</div>
+        <div class="cgc-font-b cgc-title-section-footer float-left cgc-color-gb">HUMAIN</div>
       </div>
     </div>
   </div>
@@ -234,11 +277,10 @@
           </div>
           <div class="col-lg-3">
             <ul class="cgc-list">
-              <li>ACCUEIL</li>
-              <li>NOTRE METIER</li>
-              <li>NOS REFERECENCES</li>
-              <li>NOS EXPERTISES</li>
-              <li>NOTRE EQUIPE</li>
+              <li><a href="<?php echo site_url( '/index.php/accueil/'); ?>">ACCUEIL</a></li>
+              <li><a href="<?php echo site_url( '/index.php/notre-metier/'); ?>">NOTRE MÉTIER</a></li>
+              <li><a href="<?php echo site_url( '/index.php/nos-references/'); ?>">NOS RÉFÉRENCES</a></li>
+              <li><a href="<?php echo site_url( '/index.php/nos-expertises/'); ?>">NOS EXPERTISES</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
@@ -254,9 +296,9 @@
           <div class="col-lg-3">
             <p>RESEAUX SOCIAUX</p>
             <p class="cgc-social">
-              <span class="ti-twitter-alt p-2 ml-1"></span>
-              <span class="ti-linkedin p-2 ml-1"></span>
-              <span class="ti-youtube p-2 ml-1"></span>
+              <a href="https://twitter.com/AgenceCGC?fbclid=IwAR2oSHN9quHRRmIBgj_UbP3183qxxTOACIsaa_Kv0SP6EoVE8pP2ZBNbuGI" class="ti-twitter-alt p-2 ml-1"></a>
+              <a href="" class="ti-linkedin p-2 ml-1"></a>
+              <a href="https://www.youtube.com/channel/UCViT2p24FGO_pHVr4wzJtSA?fbclid=IwAR3PuXJMqk8K3uZbVHlQQ-22hwl2H1GwyU8PN1rBlLXr4uPUARoPRTvAzVA" class="ti-youtube p-2 ml-1"></a>
             </p>
           </div>
         </div>
